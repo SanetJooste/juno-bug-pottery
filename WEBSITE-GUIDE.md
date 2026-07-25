@@ -21,7 +21,7 @@ Last updated: 2026-07-26
 ## Current status
 
 - [x] Site pages built locally (2026-07-26)
-- [ ] Local git repo created
+- [x] Local git repo created (2026-07-26)
 - [ ] Pushed to GitHub
 - [ ] GitHub Pages turned on
 - [ ] junobug.com / junobug.co.nz connected via GoDaddy DNS
@@ -115,7 +115,7 @@ live site within a minute or two.
 ## GitHub account details
 
 - GitHub sign-in email: sanet@lonrix.com
-- GitHub username: *(to fill in)*
+- GitHub username: Sanet1313
 - Repository name: *(to fill in)*
 - Repository URL: *(to fill in)*
 
