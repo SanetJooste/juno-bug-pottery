@@ -22,7 +22,7 @@ Last updated: 2026-07-26
 
 - [x] Site pages built locally (2026-07-26)
 - [x] Local git repo created (2026-07-26)
-- [ ] Pushed to GitHub
+- [x] Pushed to GitHub (2026-07-26)
 - [ ] GitHub Pages turned on
 - [ ] junobug.com / junobug.co.nz connected via GoDaddy DNS
 - [ ] Real photos added (site currently uses "Photo coming soon" placeholders)
@@ -116,8 +116,8 @@ live site within a minute or two.
 
 - GitHub sign-in email: sanet@lonrix.com
 - GitHub username: Sanet1313
-- Repository name: *(to fill in)*
-- Repository URL: *(to fill in)*
+- Repository name: juno-bug-pottery
+- Repository URL: https://github.com/sanet1313/juno-bug-pottery
 
 ## Domains
 
