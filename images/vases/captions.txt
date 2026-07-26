@@ -1,8 +1,2 @@
-Add one line per photo, in this format:
-filename.jpg | Caption text goes here
-
-Example:
-tall-cream-vase.jpg | Tall cream vase, 35cm
-
-Delete these instructions/example once you start adding your own lines below.
----
+green-and-white-vase-with-scroll-lugs.jpeg | Green and white vase with scroll lugs
+jug-vase-pink-and-grey.jpeg | Jug vase pink and grey

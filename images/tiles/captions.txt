@@ -1,8 +1,2 @@
-Add one line per photo, in this format:
-filename.jpg | Caption text goes here
-
-Example:
-autumn-leaf-tile.jpg | Autumn leaf motif tile, 10x10cm
-
-Delete these instructions/example once you start adding your own lines below.
----
+blue-rectangular-tiles-4-pieces.jpeg | Blue rectangular tiles 4 pieces
+tourmaline-square-tiles-8-pieces.jpeg | Tourmaline square tiles 8 pieces

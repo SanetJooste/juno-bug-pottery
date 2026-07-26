@@ -1,8 +1,2 @@
-Add one line per photo, in this format:
-filename.jpg | Caption text goes here
-
-Example:
-terracotta-dinner-plate.jpg | Terracotta dinner plate, 28cm
-
-Delete these instructions/example once you start adding your own lines below.
----
+hand-painted-satin-matt-glaze-plate-with-bird.jpeg | Hand painted satin matt glaze plate with bird
+hand-painted-satin-matt-glaze-plate-with-flower.jpeg | Hand painted satin matt glaze plate with flower

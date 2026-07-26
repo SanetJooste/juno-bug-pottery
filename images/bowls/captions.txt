@@ -1,8 +1,5 @@
-Add one line per photo, in this format:
-filename.jpg | Caption text goes here
-
-Example:
-speckled-blue-bowl.jpg | Speckled blue bowl, 20cm
-
-Delete these instructions/example once you start adding your own lines below.
----
+blue-green-bowl-set-of-4.jpeg | Blue green bowl set of 4
+large-green-brown-salad-bowl.jpeg | Large green-brown salad bowl
+underglaze-swirls-medium-salad-bowl.jpeg | Underglaze swirls medium salad bowl
+small-blue-bowl-1.jpeg | Small blue bowl 1
+small-blue-bowl-2.jpeg | Small blue bowl 2

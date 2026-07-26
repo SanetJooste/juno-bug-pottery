@@ -1,8 +1,9 @@
-Add one line per photo, in this format:
-filename.jpg | Caption text goes here
-
-Example:
-olive-storage-canister.jpg | Olive glaze storage canister, 18cm
-
-Delete these instructions/example once you start adding your own lines below.
----
+dog-treat-canister-1.jpeg | Dog treat canister 1
+dog-treat-canister-2.jpeg | Dog treat canister 2
+green-loop-handle-canister.jpeg | Green loop handle canister
+green-short-round-canister.jpeg | Green short round canister
+green-slip-decorated-bird-lid-canister.jpeg | Green slip decorated bird lid canister
+pomegranate-tall-canister.jpeg | Pomegranate tall canister
+set-of-3-green-rose-handle-wood-lid-canisters.jpeg | Set of 3 green rose handle wood lid canisters
+set-of-3-green-rose-handle-wood-lid-canisters-2.jpeg | Set of 3 green rose handle wood lid canisters 2
+set-of-3-green-rose-handle-wood-lid-canisters-3.jpeg | Set of 3 green rose handle wood lid canisters 3

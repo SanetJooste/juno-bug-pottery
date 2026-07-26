@@ -1,8 +1,7 @@
-Add one line per photo, in this format:
-filename.jpg | Caption text goes here
-
-Example:
-blue-speckled-mug.jpg | Blue speckled mug, 10cm tall
-
-Delete these instructions/example once you start adding your own lines below.
----
+jug-with-4-small-beakers-1.jpeg | Jug with 4 small beakers 1
+jug-with-4-small-beakers-2.jpeg | Jug with 4 small beakers 2
+mug-with-oxide-and-underglaze-flowers-1.jpeg | Mug with oxide and underglaze flowers 1
+mug-with-oxide-and-underglaze-flowers-2.jpeg | Mug with oxide and underglaze flowers 2
+blue-green-mug-1.jpeg | Blue green mug 1
+blue-green-mug-2.jpeg | Blue green mug 2
+blue-green-mug-3.jpeg | Blue green mug 3
