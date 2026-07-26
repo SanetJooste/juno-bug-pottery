@@ -36,7 +36,7 @@ Last updated: 2026-07-26
       sometimes longer)
 - [x] junobug.com DNS records added at GoDaddy (2026-07-26)
 - [ ] junobug.co.nz forwarding to junobug.com set up at GoDaddy
-- [ ] Real photos added (site currently uses "Photo coming soon" placeholders)
+- [x] Real photos added — all 6 categories (2026-07-26)
 - [ ] Etsy shop link added
 - [ ] Felt shop link added
 
@@ -133,6 +133,13 @@ git push
 
 GitHub Pages picks up the change automatically — it usually shows up on the
 live site within a minute or two.
+
+## Troubleshooting
+
+- **`git commit` fails with "unable to write new index file"**: this folder
+  lives inside Dropbox, and Dropbox sometimes briefly locks files while it's
+  uploading them (especially right after adding several photos at once).
+  Wait 10–20 seconds and try the commit again.
 
 ## GitHub account details
 
