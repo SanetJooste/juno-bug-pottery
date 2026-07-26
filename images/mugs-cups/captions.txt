@@ -1,0 +1,8 @@
+Add one line per photo, in this format:
+filename.jpg | Caption text goes here
+
+Example:
+blue-speckled-mug.jpg | Blue speckled mug, 10cm tall
+
+Delete these instructions/example once you start adding your own lines below.
+---

@@ -6,6 +6,12 @@ Claude and ask). Claude should keep this file up to date as we make changes.
 
 Last updated: 2026-07-26
 
+## Current look
+
+- Background: soft orange/peach. Text and accents: deep blue. Logo (ladybug)
+  in the header next to the site name. Colors live as CSS variables at the
+  top of `css/style.css` — tell Claude to tweak them any time.
+
 ## The big picture
 
 - The site is a **plain static website** — just HTML, CSS, and image files.
@@ -23,8 +29,11 @@ Last updated: 2026-07-26
 - [x] Site pages built locally (2026-07-26)
 - [x] Local git repo created (2026-07-26)
 - [x] Pushed to GitHub (2026-07-26)
-- [ ] GitHub Pages turned on
-- [ ] junobug.com / junobug.co.nz connected via GoDaddy DNS
+- [x] Logo added to header (2026-07-26)
+- [x] Site restyled — soft orange background, blue writing (2026-07-26)
+- [ ] GitHub Pages turned on (DNS records added, waiting on final verification)
+- [x] junobug.com DNS records added at GoDaddy (2026-07-26)
+- [ ] junobug.co.nz forwarding to junobug.com set up at GoDaddy
 - [ ] Real photos added (site currently uses "Photo coming soon" placeholders)
 - [ ] Etsy shop link added
 - [ ] Felt shop link added
@@ -55,14 +64,31 @@ Juno Bug Pottery/
 └── WEBSITE-GUIDE.md      ← this file
 ```
 
-## How to add a new pottery photo
+## How to add a new pottery photo (easy way — do this)
 
 1. Take/export the photo. Keep the file size reasonable (under ~1–2 MB —
    resize/compress if your camera photos are huge).
-2. Drop the photo file into the right folder, e.g. `images/bowls/` for a bowl.
-   Use a simple lowercase name with no spaces, e.g. `blue-speckled-bowl.jpg`.
-3. Open the matching page (e.g. `bowls.html`) in a text editor (VS Code).
-4. Find the `<div class="photo-grid">` section. Copy one whole block that
+2. Drop the photo file into the right category folder, e.g. `images/bowls/`
+   for a bowl. Use a simple lowercase name with no spaces,
+   e.g. `blue-speckled-bowl.jpg`.
+3. Open the `captions.txt` file in that same folder (e.g.
+   `images/bowls/captions.txt`) and add one line per photo:
+   ```
+   blue-speckled-bowl.jpg | Blue speckled bowl, 20cm
+   ```
+4. Repeat for as many photos as you like, in any/all category folders.
+5. Tell Claude "I've added photos, please publish them." Claude will read
+   the `captions.txt` files, add the gallery entries, and push the site live.
+
+To remove a photo, delete its line from `captions.txt`, delete the image
+file, and ask Claude to publish the change.
+
+## How to add a photo (manual way — optional, for hands-on editing)
+
+Skip this unless you want to edit the HTML yourself.
+
+1. Open the matching page (e.g. `bowls.html`) in a text editor (VS Code).
+2. Find the `<div class="photo-grid">` section. Copy one whole block that
    looks like this:
    ```html
    <figure>
@@ -70,15 +96,9 @@ Juno Bug Pottery/
      <figcaption>Example bowl — replace this photo and caption</figcaption>
    </figure>
    ```
-5. Paste a new copy just before the closing `</div>`, then edit it:
-   - `src="images/bowls/blue-speckled-bowl.jpg"`
-   - `alt="..."` → a short description (for accessibility/screen readers)
-   - the `<figcaption>` text → whatever caption you want visitors to see
-     (name, size, price-on-request, whatever)
-6. Save, then publish the change (see "Publishing changes" below).
-
-To remove a photo, delete its whole `<figure>...</figure>` block and delete
-the image file from the folder.
+3. Paste a new copy just before the closing `</div>`, then edit the `src`,
+   `alt`, and `<figcaption>` text.
+4. Save, then publish the change (see "Publishing changes" below).
 
 ## Adding a whole new category
 

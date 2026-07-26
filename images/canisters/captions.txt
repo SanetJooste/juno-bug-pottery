@@ -1,0 +1,8 @@
+Add one line per photo, in this format:
+filename.jpg | Caption text goes here
+
+Example:
+olive-storage-canister.jpg | Olive glaze storage canister, 18cm
+
+Delete these instructions/example once you start adding your own lines below.
+---
