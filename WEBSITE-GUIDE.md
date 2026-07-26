@@ -31,7 +31,9 @@ Last updated: 2026-07-26
 - [x] Pushed to GitHub (2026-07-26)
 - [x] Logo added to header (2026-07-26)
 - [x] Site restyled — soft orange background, blue writing (2026-07-26)
-- [ ] GitHub Pages turned on (DNS records added, waiting on final verification)
+- [x] GitHub Pages turned on, custom domain DNS verified (2026-07-26) —
+      TLS/HTTPS certificate provisioning automatically (takes up to ~15 min,
+      sometimes longer)
 - [x] junobug.com DNS records added at GoDaddy (2026-07-26)
 - [ ] junobug.co.nz forwarding to junobug.com set up at GoDaddy
 - [ ] Real photos added (site currently uses "Photo coming soon" placeholders)
