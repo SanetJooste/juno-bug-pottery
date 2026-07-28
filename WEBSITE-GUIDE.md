@@ -4,13 +4,23 @@ This is my living reference doc for how my website works. Whenever I want to
 make a change and don't remember how, I read this file first (or hand it to
 Claude and ask). Claude should keep this file up to date as we make changes.
 
-Last updated: 2026-07-26
+Last updated: 2026-07-28
 
 ## Current look
 
-- Background: soft orange/peach. Text and accents: deep blue. Logo (ladybug)
-  in the header next to the site name. Colors live as CSS variables at the
-  top of `css/style.css` — tell Claude to tweak them any time.
+- Background: soft orange/peach, with a very faint blue autumn leaf/flower
+  line pattern tiled behind everything (`images/pattern-leaves.svg`).
+- Text and accents: deep blue. Colors live as CSS variables at the top of
+  `css/style.css` — tell Claude to tweak them any time.
+- Top banner photo (a bowl set) spans the top of every page, below the header.
+- Logo: a ladybug design, transparent background, sitting in the header next
+  to the site name. I design/edit it in `images/juno bug logo.pptx`
+  (PowerPoint), export a full-slide screenshot PNG, and Claude crops it and
+  removes the white background before it goes live as `images/logo.png`.
+  Just save the new export anywhere in the project and tell Claude the
+  filename — no need to crop it yourself.
+- Homepage category buttons each have their own faint two-color autumn
+  gradient (defined in `css/style.css` under `.cat-mugs`, `.cat-bowls`, etc.)
 
 ## The big picture
 
