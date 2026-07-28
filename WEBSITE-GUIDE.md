@@ -150,6 +150,12 @@ live site within a minute or two.
   lives inside Dropbox, and Dropbox sometimes briefly locks files while it's
   uploading them (especially right after adding several photos at once).
   Wait 10–20 seconds and try the commit again.
+- **A file edit seems to silently revert** (e.g. an image goes back to an
+  older version moments after being saved): also Dropbox — it can sync an
+  older cached copy back over a freshly-written file. Fix: re-save the file,
+  then immediately check its checksum (`md5sum path/to/file`) matches what
+  was just written before staging it, and commit right away rather than
+  leaving a gap where Dropbox can intervene.
 
 ## GitHub account details
 
