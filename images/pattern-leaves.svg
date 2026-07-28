@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260">
+  <g fill="none" stroke="#24445e" stroke-opacity="0.10" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- leaf cluster, top-left -->
+    <g transform="translate(30,20) rotate(-20)">
+      <path d="M0 0 C 16 -14, 40 -14, 48 6 C 40 26, 16 26, 0 0 Z"/>
+      <path d="M2 1 L 46 5"/>
+    </g>
+
+    <!-- small flower, upper-middle -->
+    <g transform="translate(150,50)">
+      <circle r="4"/>
+      <g><ellipse cx="0" cy="-13" rx="5" ry="9"/></g>
+      <g transform="rotate(72)"><ellipse cx="0" cy="-13" rx="5" ry="9"/></g>
+      <g transform="rotate(144)"><ellipse cx="0" cy="-13" rx="5" ry="9"/></g>
+      <g transform="rotate(216)"><ellipse cx="0" cy="-13" rx="5" ry="9"/></g>
+      <g transform="rotate(288)"><ellipse cx="0" cy="-13" rx="5" ry="9"/></g>
+    </g>
+
+    <!-- leaf, right side -->
+    <g transform="translate(220,110) rotate(35)">
+      <path d="M0 0 C 14 -18, 38 -18, 44 2 C 38 24, 14 24, 0 0 Z"/>
+      <path d="M2 0 L 42 2"/>
+    </g>
+
+    <!-- small twig with two leaves, lower-left -->
+    <g transform="translate(50,190)">
+      <path d="M0 30 C 6 10, 4 -10, 20 -22"/>
+      <g transform="translate(6,10) rotate(-40)">
+        <path d="M0 0 C 10 -10, 24 -10, 28 2 C 24 14, 10 14, 0 0 Z"/>
+      </g>
+      <g transform="translate(16,-14) rotate(-10)">
+        <path d="M0 0 C 10 -10, 24 -10, 28 2 C 24 14, 10 14, 0 0 Z"/>
+      </g>
+    </g>
+
+    <!-- small flower, lower-right -->
+    <g transform="translate(200,220)">
+      <circle r="3.5"/>
+      <g><ellipse cx="0" cy="-11" rx="4.5" ry="8"/></g>
+      <g transform="rotate(72)"><ellipse cx="0" cy="-11" rx="4.5" ry="8"/></g>
+      <g transform="rotate(144)"><ellipse cx="0" cy="-11" rx="4.5" ry="8"/></g>
+      <g transform="rotate(216)"><ellipse cx="0" cy="-11" rx="4.5" ry="8"/></g>
+      <g transform="rotate(288)"><ellipse cx="0" cy="-11" rx="4.5" ry="8"/></g>
+    </g>
+
+    <!-- single drifting leaf, bottom-middle -->
+    <g transform="translate(120,240) rotate(60)">
+      <path d="M0 0 C 12 -12, 30 -12, 36 4 C 30 20, 12 20, 0 0 Z"/>
+      <path d="M2 1 L 34 3"/>
+    </g>
+
+  </g>
+</svg>

@@ -18,7 +18,9 @@ body {
   margin: 0;
   font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
   color: var(--ink);
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image: url("../images/pattern-leaves.svg");
+  background-repeat: repeat;
   line-height: 1.6;
 }
 
@@ -55,8 +57,23 @@ header.site-header {
 .site-title:hover { color: var(--accent-dark); }
 
 .site-logo {
-  height: 48px;
+  height: 104px;
   width: auto;
+  display: block;
+}
+
+.top-banner {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+}
+
+.top-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   display: block;
 }
 
@@ -115,20 +132,28 @@ main {
 
 .category-card {
   display: block;
-  background: transparent;
   border: 1px solid var(--border);
   border-radius: 4px;
   padding: 1.75rem 1rem;
   text-align: center;
   text-decoration: none;
   color: var(--ink);
-  transition: border-color 0.15s ease, color 0.15s ease;
+  transition: border-color 0.15s ease, color 0.15s ease, filter 0.15s ease;
 }
 
 .category-card:hover {
   border-color: var(--accent);
   color: var(--accent-dark);
+  filter: brightness(0.97);
 }
+
+/* faint autumn gradients, a different pairing per category */
+.cat-mugs      { background: linear-gradient(135deg, #f3e2c2, #d7e2b6); }
+.cat-bowls     { background: linear-gradient(135deg, #f2d8ce, #d8c1a6); }
+.cat-plates    { background: linear-gradient(135deg, #f5e3b3, #e8c3a1); }
+.cat-vases     { background: linear-gradient(135deg, #ecc9ac, #e3c5cf); }
+.cat-canisters { background: linear-gradient(135deg, #dfe3ba, #f0dea7); }
+.cat-tiles     { background: linear-gradient(135deg, #e3cdb3, #f2d6ad); }
 
 .category-card h2 {
   margin: 0;

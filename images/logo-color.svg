@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <path id="arcTop" d="M 65,150 A 155,155 0 0 1 335,150" fill="none"/>
+    <path id="arcBottom" d="M 95,325 A 130,130 0 0 0 305,325" fill="none"/>
+    <!-- leaf template: narrow attachment point at origin, tip pointing straight up -->
+    <path id="oliveLeaf" d="M0,0 C -8,-8 -8,-18 0,-26 C 8,-18 8,-8 0,0 Z"
+          fill="#6f8f45" stroke="#4f6b30" stroke-width="1"/>
+    <g id="oliveBranch">
+      <path d="M50,336 C 15,285 20,225 12,175 C 4,130 30,95 60,108"
+            fill="none" stroke="#4f6b30" stroke-width="3" stroke-linecap="round"/>
+      <!-- bare bottom third, then opposite leaf pairs shrinking toward the curled tip -->
+      <use href="#oliveLeaf" transform="translate(26,298) rotate(-45)"/>
+      <use href="#oliveLeaf" transform="translate(26,298) rotate(45)"/>
+      <use href="#oliveLeaf" transform="translate(17,266) rotate(-45) scale(0.85)"/>
+      <use href="#oliveLeaf" transform="translate(17,266) rotate(45) scale(0.85)"/>
+      <use href="#oliveLeaf" transform="translate(12,232) rotate(-45) scale(0.72)"/>
+      <use href="#oliveLeaf" transform="translate(12,232) rotate(45) scale(0.72)"/>
+      <use href="#oliveLeaf" transform="translate(10,198) rotate(-45) scale(0.6)"/>
+      <use href="#oliveLeaf" transform="translate(10,198) rotate(45) scale(0.6)"/>
+      <use href="#oliveLeaf" transform="translate(10,166) rotate(-45) scale(0.48)"/>
+      <use href="#oliveLeaf" transform="translate(10,166) rotate(45) scale(0.48)"/>
+      <use href="#oliveLeaf" transform="translate(18,136) rotate(-40) scale(0.36)"/>
+      <use href="#oliveLeaf" transform="translate(18,136) rotate(50) scale(0.36)"/>
+      <use href="#oliveLeaf" transform="translate(38,115) rotate(-30) scale(0.25)"/>
+      <use href="#oliveLeaf" transform="translate(38,115) rotate(60) scale(0.25)"/>
+    </g>
+  </defs>
+
+  <!-- arced wordmark -->
+  <text font-family="'Segoe Print','Bradley Hand','Comic Sans MS',cursive" font-size="34" fill="#3a2c22" letter-spacing="2">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">juno-bug</textPath>
+  </text>
+  <text font-family="'Segoe Print','Bradley Hand','Comic Sans MS',cursive" font-size="34" fill="#3a2c22" letter-spacing="2">
+    <textPath href="#arcBottom" startOffset="50%" text-anchor="middle">pottery</textPath>
+  </text>
+
+  <!-- olive branch, left -->
+  <use href="#oliveBranch"/>
+
+  <!-- olive branch, right (mirrored) -->
+  <g transform="translate(400,0) scale(-1,1)">
+    <use href="#oliveBranch"/>
+  </g>
+
+  <!-- ladybug -->
+  <g transform="translate(200,235)">
+
+    <!-- legs -->
+    <g stroke="#2a1f18" stroke-width="3.5" fill="none" stroke-linecap="round">
+      <path d="M-70,-30 C -95,-38 -108,-30 -118,-14"/>
+      <path d="M-75,5 C -102,4 -116,14 -122,32"/>
+      <path d="M-68,40 C -92,50 -100,64 -100,84"/>
+      <path d="M70,-30 C 95,-38 108,-30 118,-14"/>
+      <path d="M75,5 C 102,4 116,14 122,32"/>
+      <path d="M68,40 C 92,50 100,64 100,84"/>
+    </g>
+
+    <!-- antennae -->
+    <g stroke="#2a1f18" stroke-width="4" fill="none" stroke-linecap="round">
+      <path d="M-18,-90 C -30,-110 -34,-128 -28,-146"/>
+      <path d="M18,-90 C 30,-110 34,-128 28,-146"/>
+    </g>
+    <circle cx="-28" cy="-146" r="6" fill="#d99a3d"/>
+    <circle cx="28" cy="-146" r="6" fill="#d99a3d"/>
+
+    <!-- body -->
+    <ellipse cx="0" cy="15" rx="78" ry="98" fill="#c1502e" stroke="#2a1f18" stroke-width="4"/>
+
+    <!-- head -->
+    <ellipse cx="0" cy="-72" rx="34" ry="26" fill="#2a1f18"/>
+
+    <!-- center split -->
+    <line x1="0" y1="-48" x2="0" y2="108" stroke="#2a1f18" stroke-width="4"/>
+
+    <!-- spots, left -->
+    <circle cx="-32" cy="-30" r="11" fill="#2a1f18"/>
+    <circle cx="-45" cy="12" r="12" fill="#2a1f18"/>
+    <circle cx="-28" cy="58" r="10" fill="#2a1f18"/>
+
+    <!-- spots, right -->
+    <circle cx="32" cy="-30" r="11" fill="#2a1f18"/>
+    <circle cx="45" cy="12" r="12" fill="#2a1f18"/>
+    <circle cx="28" cy="58" r="10" fill="#2a1f18"/>
+
+  </g>
+</svg>
