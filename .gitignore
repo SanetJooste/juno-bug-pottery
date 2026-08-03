@@ -1,2 +1,11 @@
 # Microsoft Office temporary lock files
 ~$*
+
+# Full-resolution camera originals (~4MB each) — kept locally/in Dropbox only.
+# Web-sized copies with descriptive names are what actually get committed.
+images/**/DSCF*.jpeg
+images/**/DSCF*.JPG
+images/**/DSCF*.jpg
+
+# Raw photo export dumps — not website assets
+images/*.zip
