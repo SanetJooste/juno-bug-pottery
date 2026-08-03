@@ -4,7 +4,23 @@ This is my living reference doc for how my website works. Whenever I want to
 make a change and don't remember how, I read this file first (or hand it to
 Claude and ask). Claude should keep this file up to date as we make changes.
 
-Last updated: 2026-07-28
+Last updated: 2026-08-03
+
+## Photos
+
+- Gallery photo boxes are fixed squares that show the **whole photo, never
+  cropped** (`object-fit: contain` in `css/style.css`), with letterboxing in
+  a soft background color for photos that aren't square. This works whether
+  a photo comes from a phone (portrait) or a proper camera (landscape).
+- Camera photos (e.g. a Fujifilm X100VI export) can be 30+ megapixels and
+  ~4MB each — far bigger than a website needs. Claude resizes these down to
+  a 1600px-long-edge JPEG before adding them to a category page. The
+  full-resolution originals (filenames like `DSCF1234.jpeg`) and any photo
+  export `.zip` files are excluded from git via `.gitignore` — they stay in
+  this Dropbox folder as your archive, but never get pushed to GitHub.
+- If a batch of new photos includes several near-duplicate angles of the
+  same piece, Claude will pick the best 1–2 for the gallery rather than
+  adding every angle — just ask if you want more of a particular piece added.
 
 ## Current look
 
