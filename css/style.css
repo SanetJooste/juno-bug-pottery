@@ -67,14 +67,43 @@ header.site-header {
   height: 300px;
   overflow: hidden;
   border-bottom: 1px solid var(--border);
+  position: relative;
+  background: var(--bg-soft);
 }
 
-.top-banner img {
-  width: 100%;
+.top-banner .banner-photo {
+  position: absolute;
+  top: 0;
   height: 100%;
+  width: 44%;
   object-fit: cover;
   object-position: center;
   display: block;
+}
+
+.top-banner .banner-photo:nth-child(1) {
+  left: 0%;
+  -webkit-mask-image: linear-gradient(to right, black 55%, transparent 100%);
+          mask-image: linear-gradient(to right, black 55%, transparent 100%);
+}
+
+.top-banner .banner-photo:nth-child(2) {
+  left: 19%;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%);
+          mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%);
+}
+
+.top-banner .banner-photo:nth-child(3) {
+  left: 38%;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%);
+          mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%);
+}
+
+.top-banner .banner-photo:nth-child(4) {
+  left: 56%;
+  width: 44%;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 45%);
+          mask-image: linear-gradient(to right, transparent 0%, black 45%);
 }
 
 nav.site-nav ul {
