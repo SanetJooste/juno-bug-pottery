@@ -28,7 +28,11 @@ Last updated: 2026-08-03
   line pattern tiled behind everything (`images/pattern-leaves.svg`).
 - Text and accents: deep blue. Colors live as CSS variables at the top of
   `css/style.css` — tell Claude to tweak them any time.
-- Top banner photo (a bowl set) spans the top of every page, below the header.
+- Top banner blends 4 photos into one strip (feathered/masked edges so they
+  crossfade into each other, not hard-edged tiles) — currently a butterfly
+  bowl, a koi plate, a koi vase, and the palm-tree/dog canister. Defined by
+  `.banner-photo` rules in `css/style.css`; swap the 4 `<img>` tags in each
+  page's `<div class="top-banner">` to feature different pieces.
 - Logo: a ladybug design, transparent background, sitting in the header next
   to the site name. I design/edit it in `images/juno bug logo.pptx`
   (PowerPoint), export a full-slide screenshot PNG, and Claude crops it and
