@@ -192,7 +192,10 @@ live site within a minute or two.
 
 ## Shop links
 
-- Etsy shop URL: *(to fill in)*
+- Etsy shop URL: not set up yet. The "Shop on Etsy" button currently shows a
+  popup saying "This account is not yet active" instead of linking anywhere
+  (see the `onclick` on that button in each page). Once the Etsy shop is
+  live, give Claude the URL and ask it to swap the button back to a real link.
 - Felt shop URL: https://felt.co.nz/shop/junobugpottery (live on all pages
   since 2026-08-06, opens in a new tab)
 
