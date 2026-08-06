@@ -193,10 +193,11 @@ live site within a minute or two.
 ## Shop links
 
 - Etsy shop URL: *(to fill in)*
-- Felt shop URL: *(to fill in)*
+- Felt shop URL: https://felt.co.nz/shop/junobugpottery (live on all pages
+  since 2026-08-06, opens in a new tab)
 
-Once I have these, update the `href="#"` placeholders in the "Shop on Etsy" /
-"Shop on Felt" buttons on every page.
+Once I have the Etsy URL too, update the `href="#"` placeholder on the
+"Shop on Etsy" button the same way.
 
 ## Categories
 
