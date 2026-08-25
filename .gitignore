@@ -9,3 +9,6 @@ images/**/DSCF*.jpg
 
 # Raw photo export dumps — not website assets
 images/*.zip
+
+# Account credentials / recovery codes — never commit
+ETSY account details/
